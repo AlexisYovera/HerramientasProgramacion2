@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace api_autores.Entitys
 {
@@ -6,7 +7,7 @@ namespace api_autores.Entitys
     {
         //DEFINIMOS LA CLAVE PRIMARIA
         [Key]
-        public int codigo { get; set; }
+        public int codigoautor { get; set; }
         //DEFINIMOS VALORES NO NULOS
         [Required]
         //DEFINIMOS TAMAÑO DEL CAMPO
@@ -15,5 +16,7 @@ namespace api_autores.Entitys
         public string nombre { get; set; }
         [Required]
         public bool estado { get; set; }
+
+        public List<Libro> libro { get; set; }
     }
 }
