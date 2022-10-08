@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api autores", "api autores\api autores.csproj", "{2E555C4D-843E-4C4D-AEA4-6DC5E510AF13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-autores", "api autores\api-autores.csproj", "{2E555C4D-843E-4C4D-AEA4-6DC5E510AF13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
